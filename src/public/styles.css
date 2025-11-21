@@ -72,9 +72,9 @@ body {
 .greeting {
     font-size: 1.8em;
     font-weight: 700;
-    color: #FFD700; 
+    color: #00ccff; 
     line-height: 1.4;
-    text-shadow: 0 0 8px rgba(255, 215, 0, 0.4); 
+    text-shadow: 0 0 8px rgba(0, 102, 255, 0.4); 
 }
 
 .footer {
