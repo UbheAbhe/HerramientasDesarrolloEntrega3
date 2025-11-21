@@ -41,7 +41,7 @@ body {
     letter-spacing: 2px;
     color: #FFFFFF;
     text-transform: uppercase;
-    border-bottom: 3px solid #00b7ff; 
+    border-bottom: 3px solid #00c3ff; 
     display: inline-block;
     padding-bottom: 10px;
 }
@@ -72,7 +72,7 @@ body {
 .greeting {
     font-size: 1.8em;
     font-weight: 700;
-    color: #FFD700; 
+    color: #0044ff; 
     line-height: 1.4;
     text-shadow: 0 0 8px rgba(255, 215, 0, 0.4); 
 }
