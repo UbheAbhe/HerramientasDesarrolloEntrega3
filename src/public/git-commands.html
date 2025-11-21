@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Comandos Esenciales de Git</title>
+    <link rel="stylesheet" href="/styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <header class="header">
+            <h1 class="title">Comandos Esenciales de Git</h1>
+        </header>
+        <main class="content-box commands-list">
+            <p class="subtitle">Funcionalidad y uso de los comandos más importantes para tu flujo de trabajo.</p>
+            <hr class="divider">
+            
+            <h3>1. git init</h3>
+            <p>Crea un nuevo repositorio de Git en la carpeta actual. Es el primer paso para empezar a rastrear archivos.</p>
+
+            <h3>2. git clone [URL]</h3>
+            <p>Descarga un repositorio existente desde una URL remota (como GitHub) a tu máquina local.</p>
+            
+            <h3>3. git add [archivo] / git add .</h3>
+            <p>Mueve los cambios de tu directorio de trabajo al **"área de staging"** (staging area), preparándolos para el commit.</p>
+            
+            <h3>4. git commit -m "[mensaje]"</h3>
+            <p>Guarda los cambios preparados (staged) de forma permanente en el historial del repositorio local con un mensaje descriptivo.</p>
+            
+            <h3>5. git status</h3>
+            <p>Muestra el estado actual del repositorio, incluyendo archivos modificados, archivos staged y archivos sin seguimiento.</p>
+
+            <h3>6. git push origin [rama]</h3>
+            <p>Sube los commits locales al repositorio remoto (GitHub, GitLab, etc.), compartiendo el historial con otros colaboradores.</p>
+
+            <h3>7. git pull origin [rama]</h3>
+            <p>Descarga los cambios del repositorio remoto y los fusiona (merge) automáticamente con tu rama local.</p>
+
+            <h3>8. git branch</h3>
+            <p>Muestra una lista de todas las ramas locales. Con un argumento, crea o cambia de nombre una rama.</p>
+
+            <h3>9. git checkout [rama] / git switch [rama]</h3>
+            <p>Cambia el directorio de trabajo a una rama o commit específico.</p>
+
+            <h3>10. git merge [rama]</h3>
+            <p>Integra los cambios de la rama especificada a la rama actual.</p>
+
+            <hr class="divider">
+
+            <h3>11. git log</h3>
+            <p>Muestra el historial completo de commits del repositorio, permitiendo ver el ID del commit, el autor, la fecha y el mensaje. Es crucial para rastrear qué ha cambiado y cuándo.</p>
+
+            <h3>12. git diff</h3>
+            <p>Muestra las diferencias exactas entre el directorio de trabajo y el área de staging, entre dos commits, o entre dos ramas. Es la herramienta principal para revisar cambios antes de hacer un commit.</p>
+            
+            <h3>13. git stash</h3>
+            <p>Guarda temporalmente todos los cambios en el directorio de trabajo y el área de staging sin la necesidad de hacer un commit formal. Esto es útil cuando necesitas cambiar de rama rápidamente pero no quieres comitear el trabajo incompleto.</p>
+
+            <h3>14. git revert [commit ID]</h3>
+            <p>Deshace un commit específico **creando un nuevo commit** que revierte los cambios. Este es el método más seguro para deshacer errores en un historial compartido, ya que no reescribe el historial.</p>
+
+            <h3>15. git reset [archivo]</h3>
+            <p>Se utiliza para deshacer commits o para sacar archivos del área de staging. Por defecto (modo `--mixed`), mueve los archivos staged de vuelta al directorio de trabajo.</p>
+
+            <h3>16. git remote -v</h3>
+            <p>Muestra una lista de las URLs de los repositorios remotos que Git tiene configurados (por ejemplo, `origin`).</p>
+
+            <h3>17. git config --global user.name "Tu Nombre"</h3>
+            <p>Define el nombre de usuario globalmente para Git, que se adjuntará a todos tus commits. Es un comando de configuración inicial.</p>
+
+            <h3>18. git tag [nombre]</h3>
+            <p>Crea una etiqueta permanente en un punto específico del historial, generalmente para marcar versiones de lanzamiento (ejemplo: `v1.0.0`).</p>
+            
+            <hr class="divider">
+            <a href="/" class="button-link back-button">Volver a la Principal</a>
+        </main>
+    </div>
+</body>
+</html>
