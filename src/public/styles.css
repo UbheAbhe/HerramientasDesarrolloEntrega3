@@ -64,7 +64,7 @@ body {
 .divider {
     border: 0;
     height: 1px;
-    background-image: linear-gradient(to right, rgba(255, 215, 0, 0), rgba(255, 215, 0, 0.75), rgba(255, 215, 0, 0));
+    background-image: linear-gradient(to right, rgba(255, 215, 0, 0), rgba(0, 225, 255, 0.75), rgba(255, 215, 0, 0));
     margin: 20px auto;
     width: 80%;
 }
@@ -72,9 +72,9 @@ body {
 .greeting {
     font-size: 1.8em;
     font-weight: 700;
-    color: #0044ff; 
+    color: #00ccff; 
     line-height: 1.4;
-    text-shadow: 0 0 8px rgba(255, 215, 0, 0.4); 
+    text-shadow: 0 0 8px rgba(0, 89, 255, 0.4); 
 }
 
 .footer {
